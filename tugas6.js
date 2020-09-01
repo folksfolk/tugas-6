@@ -14,6 +14,20 @@ var luasLingkaran = (r) => {
 
 // Jawaban Nomor 2
 
+let kalimat = ""
+
+const tambahKata = (str) => {
+  kalimat = `${kalimat} ${str}`
+}
+
+tambahKata("saya")
+tambahKata("adalah")
+tambahKata("seorang")
+tambahKata("frontend")
+tambahKata("developer")
+
+console.log(kalimat)
+
 // Jawaban Nomor 3
 
 
